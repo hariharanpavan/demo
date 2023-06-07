@@ -2,6 +2,7 @@ import os
 import pyodbc
 import pandas as pd
 from fastapi import FastAPI
+from dotenv import load_dotenv
 from sqlalchemy import create_engine
 
 app = FastAPI()
