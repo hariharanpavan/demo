@@ -1,4 +1,5 @@
 import os
+import pyodbc
 import pandas as pd
 from fastapi import FastAPI
 from sqlalchemy import create_engine
